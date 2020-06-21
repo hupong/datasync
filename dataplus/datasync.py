@@ -217,6 +217,6 @@ if __name__ == '__main__':
                 app = sync(configfile)
                 app.start()
             elif cmd in ("-v", "--version"):
-                print("dataplus version 0.1.2")
+                print("dataplus version 0.1.3")
     except getopt.GetoptError as err:
         print(err, "argv error, please input")
